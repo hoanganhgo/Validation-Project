@@ -50,6 +50,8 @@ classDiagram
 
     %% ======================================================
     class Validator {
+      -getValueFromObject(Filed, Object) Object
+      -createConstraintViolation(String,Object) ConstraintViolation
       +Validate(Filed, Object) ConstrainViolation
       #invalid() Boolean
       #getMessage(Filed) Boolean
@@ -66,8 +68,6 @@ classDiagram
     class NotNull {
       +message()
     }
-
-
 
     %% ======================================================
     ConstrainViolation --* Validation

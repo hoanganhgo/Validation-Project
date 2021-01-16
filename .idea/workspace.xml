@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/META-INF/Validation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/annotation/NotNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/annotation/Regex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ConstraintViolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ConstraintViolationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validation$ValidationHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validator/NotNulValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validator/RegexValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/ui/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/ui/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +114,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
