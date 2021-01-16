@@ -48,4 +48,4 @@
 
 ## SƠ ĐỒ LỚP THIẾT KẾ
 
-![class diagram](./class_diagram/class_diagram.png)
+![class diagram](./class_diagram/class_diagram_light_theme.png)
