@@ -14,7 +14,7 @@ public class Main {
         user.setAge(0);
         user.setAboutMe("Beautiful");
         user.setWorking(true);
-        user.setEmail("anhgmailcom");
+        user.setEmail("anh@gmailcom");
         List items = new ArrayList<String>();
         items.add("");
         items.add("hello");

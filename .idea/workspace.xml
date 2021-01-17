@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_diagram/class_diagram.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_diagram/class_diagram_light_theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validation/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/validator/NotNulValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validator/NotNulValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +91,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -91,11 +101,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -206,6 +221,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -228,30 +244,30 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1609559988197">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1610899250261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1609559988197" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1610899250261" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609555799851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609555799851" />
-    <state width="1323" height="291" key="GridCell.Tab.0.bottom" timestamp="1610896037616">
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1610900919058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="291" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610896037616" />
-    <state width="1323" height="291" key="GridCell.Tab.0.center" timestamp="1610896037615">
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610900919058" />
+    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1610900919057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="291" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610896037615" />
-    <state width="1323" height="291" key="GridCell.Tab.0.left" timestamp="1610896037615">
+    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610900919057" />
+    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1610900919057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="291" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610896037615" />
-    <state width="1323" height="291" key="GridCell.Tab.0.right" timestamp="1610896037615">
+    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610900919057" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1610900919058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="291" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610896037615" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610900919058" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1609576832265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -260,6 +276,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1610893208693" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610899987657">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610899987657" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1610895406034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

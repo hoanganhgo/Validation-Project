@@ -1,6 +1,10 @@
 package framework;
 
 import framework.annotation.*;
+import framework.validation.Validator;
+import framework.validation.ValidatorFactory;
+import framework.validation.ValidatorType;
+import framework.validator.RegexValidator;
 
 import java.util.List;
 

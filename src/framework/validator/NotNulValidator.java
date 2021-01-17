@@ -9,7 +9,7 @@ public class NotNulValidator extends Validator {
 
     @Override
     protected boolean invalid(Field field, Object value) {
-        return value == null;
+        return (value == null);
     }
 
     @Override
