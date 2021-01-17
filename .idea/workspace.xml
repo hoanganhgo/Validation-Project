@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +69,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1mUhjKz5hUAdMs9YOu2ihIyZ80W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -94,7 +103,7 @@
       <recent name="E:\Design Pattern\Validation\src\framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -227,30 +236,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609555799851" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1609597746258">
+    <state width="1323" height="291" key="GridCell.Tab.0.bottom" timestamp="1610896037616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609597746258" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1609597746258">
+    <state width="1323" height="291" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610896037616" />
+    <state width="1323" height="291" key="GridCell.Tab.0.center" timestamp="1610896037615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609597746258" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1609597746258">
+    <state width="1323" height="291" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610896037615" />
+    <state width="1323" height="291" key="GridCell.Tab.0.left" timestamp="1610896037615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609597746258" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1609597746258">
+    <state width="1323" height="291" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610896037615" />
+    <state width="1323" height="291" key="GridCell.Tab.0.right" timestamp="1610896037615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609597746258" />
+    <state width="1323" height="291" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610896037615" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1609576832265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609576832265" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1609596257925">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1610893208693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1609596257925" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1610893208693" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1610895406034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610895406034" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609555250186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
