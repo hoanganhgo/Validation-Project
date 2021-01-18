@@ -45,6 +45,10 @@ public class ValidatorFactory {
                             validator = new DoBValidator();
                             break;
 
+                        case BLANK:
+                            validator = new BlankValidator();
+                            break;
+
                         default:
                             return validator;
                     }
