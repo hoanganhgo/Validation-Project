@@ -7,6 +7,7 @@ import java.time.LocalDate;
 public class User {
 
     @Regex(pattern = "^[A-Za-z0-9+_.-]+@(.+)$")
+    @NotBlank
     private String email;
 
     @PhoneNumber

@@ -1,8 +1,6 @@
 package ui;
 
-import framework.service.ValidationHelper;
 import framework.validation.ConstraintViolation;
-import framework.validation.ConstraintViolationImpl;
 import framework.validation.Validation;
 import javafx.application.Application;
 import javafx.geometry.Insets;

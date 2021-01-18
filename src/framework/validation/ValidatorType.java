@@ -10,7 +10,8 @@ public enum ValidatorType {
     PHONE_NUMBER(PhoneNumber.class),
     MAX(Max.class),
     MIN(Min.class),
-    DATE_OF_BIRTH(DateOfBirth.class);
+    DATE_OF_BIRTH(DateOfBirth.class),
+    NOT_BLANK(NotBlank.class);
 
     private Class<? extends Annotation> value;
 
