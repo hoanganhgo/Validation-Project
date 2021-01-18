@@ -12,6 +12,7 @@ public enum ValidatorType {
     MIN(Min.class),
     DATE_OF_BIRTH(DateOfBirth.class),
     NOT_BLANK(NotBlank.class);
+    BLANK(Blank.class);
 
     private Class<? extends Annotation> value;
 

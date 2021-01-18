@@ -48,6 +48,10 @@ public class ValidatorFactory {
                         case NOT_BLANK:
                             validator = new NotBlankValidator();
                             break;
+                            
+                        case BLANK:
+                            validator = new BlankValidator();
+                            break;
 
                         default:
                             return validator;
