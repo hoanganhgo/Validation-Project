@@ -6,6 +6,17 @@ public class ConstraintViolationImpl implements ConstraintViolation {
     private String property;
     private boolean valid = true;
 
+    public ConstraintViolationImpl() {
+
+    }
+
+    public ConstraintViolationImpl(String message, Object value, String property, boolean valid) {
+        this.message = message;
+        this.value = value;
+        this.property = property;
+        this.valid = valid;
+    }
+
     @Override
     public String getMessage() {
         return this.message;

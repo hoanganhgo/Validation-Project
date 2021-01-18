@@ -3,18 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/class_diagram/class_diagram.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_diagram/class_diagram_light_theme.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/annotation/DateOfBirth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/annotation/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/annotation/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/annotation/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/service/ValidationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/validator/DoBValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/validator/MaxValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/validator/MinValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/validator/PhoneNumberValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ConstraintViolationImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/validation/ConstraintViolationImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/validation/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/validation/ValidatorType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/framework/validator/RegexValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/framework/validator/RegexValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validation/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Validation/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validation/ui/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/validation/ConstraintViolationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validation/ConstraintViolationImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validation/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/validator/NotNulValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validator/NotNulValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/validation/ValidatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validation/ValidatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/validation/ValidatorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validation/ValidatorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/validator/RegexValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/validator/RegexValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Main.java" afterDir="false" />
     </list>
@@ -244,30 +260,30 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1610899250261">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1610970843756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1610899250261" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1610970843756" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609555799851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609555799851" />
-    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1610900919058">
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1610971147190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610900919058" />
-    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1610900919057">
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610971147190" />
+    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1610971147190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610900919057" />
-    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1610900919057">
+    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610971147190" />
+    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1610971147189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610900919057" />
-    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1610900919058">
+    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610971147189" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1610971147190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610900919058" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610971147190" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1609576832265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -284,9 +300,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610895406034" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609555250186">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610971028299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609555250186" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610971028299" />
   </component>
 </project>

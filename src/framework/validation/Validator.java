@@ -20,7 +20,7 @@ public abstract class Validator {
         return constraint;
     }
 
-    private final ConstraintViolation createConstraintViolation(String property, Object value){
+    private ConstraintViolation createConstraintViolation(String property, Object value){
         ConstraintViolation constraint = new ConstraintViolationImpl();
 
         constraint.setProperty(property);
@@ -29,7 +29,7 @@ public abstract class Validator {
         return constraint;
     }
 
-    private final Object getValueFromObject(Field field, Object object) {
+    private Object getValueFromObject(Field field, Object object) {
         try {
             Object value = field.get(object);
             return value;
@@ -44,37 +44,3 @@ public abstract class Validator {
 
     protected abstract String getMessage(Field field);
 }
-
-
-
-
-//package framework.validation;
-//
-//import java.lang.reflect.Field;
-//
-//public abstract class Validator {
-//    public Validator() {
-//    }
-//
-//    public final ConstraintViolation validate(Field field, Object object) {
-//        ConstraintViolation constraint = new ConstraintViolationImpl();
-//        constraint.setProperty(field.getName());
-//
-//        try {
-//            Object value = field.get(object);
-//            constraint.setValue(value);
-//            if (this.invalid(field, value)) {
-//                constraint.setMessage(this.getMessage(field));
-//                constraint.setValid(false);
-//            }
-//        } catch (IllegalAccessException var5) {
-//            var5.printStackTrace();
-//        }
-//
-//        return constraint;
-//    }
-//
-//    protected abstract boolean invalid(Field var1, Object var2);
-//
-//    protected abstract String getMessage(Field var1);
-//}

@@ -1,13 +1,16 @@
 package framework.validation;
 
-import framework.annotation.NotNull;
-import framework.annotation.Regex;
+import framework.annotation.*;
 
 import java.lang.annotation.Annotation;
 
 public enum ValidatorType {
     REGEX(Regex.class),
-    NOT_NULL(NotNull.class);
+    NOT_NULL(NotNull.class),
+    PHONE_NUMBER(PhoneNumber.class),
+    MAX(Max.class),
+    MIN(Min.class),
+    DATE_OF_BIRTH(DateOfBirth.class);
 
     private Class<? extends Annotation> value;
 

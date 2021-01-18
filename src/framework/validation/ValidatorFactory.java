@@ -29,9 +29,26 @@ public class ValidatorFactory {
                             validator = new RegexValidator();
                             break;
 
+                        case PHONE_NUMBER:
+                            validator = new PhoneNumberValidator();
+                            break;
+
+                        case MAX:
+                            validator = new MaxValidator();
+                            break;
+
+                        case MIN:
+                            validator = new MinValidator();
+                            break;
+
+                        case DATE_OF_BIRTH:
+                            validator = new DoBValidator();
+                            break;
+
                         default:
                             return validator;
                     }
+
                     validatorMap.put(validatorType.getValue(), validator);
                 }
             }
