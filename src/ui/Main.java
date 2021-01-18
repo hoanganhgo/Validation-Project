@@ -1,22 +1,24 @@
 package ui;
 
+import framework.service.ValidationHelper;
 import framework.validation.ConstraintViolation;
+import framework.validation.ConstraintViolationImpl;
 import framework.validation.Validation;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
+import javafx.util.StringConverter;
 import model.User;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Set;
 
 public class Main extends Application {
@@ -69,19 +71,46 @@ public class Main extends Application {
         labelDoB.setFont(Font.font("Verdana", FontWeight.NORMAL, 12));
         labelDoB.setTextFill(Color.RED);
 
-        TextField fieldDoB = new TextField();
-        fieldDoB.setPromptText("Enter day of birth");
-        fieldDoB.setPrefSize(400,30);
-        fieldDoB.setFont(Font.font("Verdana", FontWeight.NORMAL, 20));
+        DatePicker datePicker = new DatePicker();
+        datePicker.setPrefSize(400, 40);
+        datePicker.setStyle("-fx-font-size: 20px;");
+        String pattern = "dd/MM/yyyy";
+        datePicker.setPromptText(pattern);
+        datePicker.setConverter(new StringConverter<LocalDate>() {
+            DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern(pattern);
+
+            @Override
+            public String toString(LocalDate date) {
+                if (date != null) {
+                    return dateFormatter.format(date);
+                } else {
+                    return "";
+                }
+            }
+
+            @Override
+            public LocalDate fromString(String string) {
+                if (string != null && !string.isEmpty()) {
+                    return LocalDate.parse(string, dateFormatter);
+                } else {
+                    return null;
+                }
+            }
+        });
 
         Button signIn = new Button("Submit");
         signIn.setFont(Font.font("Verdana", FontWeight.NORMAL, 20));
         signIn.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> {
             User user = new User(fieldEmail.getText(), fieldPhoneNumber.getText(), fieldPassword.getText(),
-                    fieldDoB.getText());
+                    datePicker.getValue());
 
             Validation validation = Validation.getInstance();
             Set<ConstraintViolation> violations = validation.validate(user);
+
+//            if (!ValidationHelper.isPhoneNumber(user.getPhone())) {
+//                String message = "Phone number is invalid";
+//                violations.add(new ConstraintViolationImpl(message, user.getPhone(), "phone", false));
+//            }
 
             String notifyEmail = "";
             String notifyPhone = "";
@@ -111,6 +140,14 @@ public class Main extends Application {
             labelPhoneNumber.setText(notifyPhone);
             labelPassword.setText(notifyPassword);
             labelDoB.setText(notifyDateOfBirth);
+
+            if (Controller.checkSubmit(notifyEmail, notifyPhone, notifyPassword, notifyDateOfBirth)) {
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Sign Up");
+                alert.setContentText("Submit form success!");
+
+                alert.showAndWait();
+            }
         });
 
         gridPane.add(title, 0, 0);
@@ -121,7 +158,7 @@ public class Main extends Application {
         gridPane.add(labelPassword,0,5);
         gridPane.add(fieldPassword, 0, 6);
         gridPane.add(labelDoB, 0, 7);
-        gridPane.add(fieldDoB, 0, 8);
+        gridPane.add(datePicker, 0, 8);
         gridPane.add(signIn, 0, 9);
         primaryStage.show();
     }

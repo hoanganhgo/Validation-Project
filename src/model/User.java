@@ -1,33 +1,44 @@
 package model;
 
-import framework.annotation.NotNull;
-import framework.annotation.Regex;
+import framework.annotation.*;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.time.LocalDate;
 
 public class User {
 
     @Regex(pattern = "^[A-Za-z0-9+_.-]+@(.+)$")
     private String email;
 
+    @PhoneNumber
     private String phone;
 
+    @Min(min = 6, message = "Password must be greater than 6")
     private String password;
 
-    private Date dob;
+    @DateOfBirth
+    private LocalDate dob;
 
-    public User(String email, String phone, String password, String dob) {
+    public User(String email, String phone, String password, LocalDate dob) {
         this.email = email;
         this.phone = phone;
         this.password = password;
+        this.dob = dob;
+    }
 
-        try {
-            this.dob = new SimpleDateFormat("dd/MM/yyyy").parse(dob);
-        } catch (ParseException e) {
-            this.dob = new Date();
-        }
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public LocalDate getDob() {
+        return dob;
     }
 
     @Override
